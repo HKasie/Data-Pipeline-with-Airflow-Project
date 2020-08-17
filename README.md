@@ -6,10 +6,10 @@ to create custom operators namely **stage, fact, dimension and data quality oper
 
 ### Stage Operator
 The following are the uses of of the stage operator:
-   *stage operator would be used to load JSON formatted files from S3 to Amazon Redshift. 
+   * stage operator would be used to load JSON formatted files from S3 to Amazon Redshift. 
    * it would be used to create and run a SQL COPY statement based on the parameters provided. 
-   *The operator's parameters would be used to specify where in S3 the file is loaded and what is the target table.
-   *The parameters would be used to distinguish between JSON file. 
+   * The operator's parameters would be used to specify where in S3 the file is loaded and what is the target table.
+   * The parameters would be used to distinguish between JSON file. 
    * Finally the stage operator would contain a templated field that allows it to load timestamped files from S3 based on the execution time and run backfills.
 
 ### Fact and Dimension Operators
